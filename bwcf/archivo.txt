@@ -1,0 +1,1 @@
+publicclassFibonacciIterativo{publicstaticvoidmain(String[]args){intserie=10,num1=0,num2=1,suma=1;//MuestroelvalorinicialSystem.out.println(num1);for(inti=1;i<serie;i++){System.out.println(suma);suma=num1+num2;num1=num2;num2=suma;}}}
